@@ -371,13 +371,55 @@
         </div>
     </div>
 </footer>
-<div class="backdrop is-hidden" data-modal>
+<div class="backdrop" data-modal>
     <div class="modal">
      <button type="button" class="modal-close-btn" data-modal-close>
         <svg class="modal-icon" width="" height="">
             <use href="./images/symbol-defs.svg#icon-close-black-18dp-2-1-1"></use>
         </svg>
      </button> 
+     <p class="modal-title">Оставте свои данные, мы вам перезвоним</p>
+     <form>
+        <div class="modal-field">
+        <label for="user-name" class="modal-label">Имя</label>
+        <input
+         type="text"
+         name="user-name"
+         class="modal-input"
+         placeholder=""
+         required
+         id="user-name"/>
+        </div>
+         <div class="modal-field">
+        <label for="user-tel" class="modal-label">Телефон</label>
+        <input
+         type="tel"
+         name="user-tel"
+         class="modal-input"
+         placeholder=""
+         required
+         id="user-tel"/>
+        </div>
+         <div class="modal-field">
+        <label for="user-email" class="modal-label">Почта</label>
+        <input
+        type="email"
+        name="user-email"
+        class="modal-input"
+        placeholder=""
+        required
+        id="user-email"/>
+        </div>
+        <div class="modal-field">
+        <label for="user-teхt" class="modal-label">Комментарий</label>
+        <textarea
+         name="user-text"
+         id="user-text"
+         class="modal-text"
+         placeholder="Введите текст"></textarea>
+        </div>
+        <button type="submit">Отправить</button>
+     </form>
     </div>
 </div>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
