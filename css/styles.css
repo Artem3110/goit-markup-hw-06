@@ -1015,11 +1015,18 @@ margin-bottom: 30px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     margin-bottom: 28px;
+
 }
 
-.modal-input::placeholder {
-    border: 1px solid #2196F3;
+.modal-input:hover {
+border-color: #2196F3;
 }
+
+.modal-input:focus {
+    border-color: #2196F3;
+}
+
+
 
 .modal-label {
     font-family: 'Roboto';
@@ -1043,17 +1050,19 @@ margin-bottom: 30px;
     resize: none;
     margin-bottom: 4px;
 
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 1.16;
-        letter-spacing: 0.01em;
-    
-        color: rgba(117, 117, 117, 0.5);
+        padding-top: 12px;
+        padding-left: 16px;
+}
 
-        margin-top: 12px;
-        margin-left: 16px;
+.modal-text::placeholder {
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+
+    color: rgba(117, 117, 117, 0.5);
 }
 
 
