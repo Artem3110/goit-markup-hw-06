@@ -185,7 +185,7 @@ font-weight: 700;
 }
 
 
-.connect__mail {
+.connect__link {
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
@@ -199,26 +199,15 @@ font-weight: 700;
         transition-delay: 0;
 }
 
-.header-mail-icon {
+.connect__mail {
     fill: currentColor;
 }
 
 
 
-.connect__tel {
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
-    
-        color: #757575;
-        transition-property: color;
-        transition-duration: 250ms;
-        transition-timing-function: var(--timing-function);
-        transition-delay: 0;
-}
 
-.header-tel-icon {
+
+.connect__tel {
     fill: currentColor;
 }
 
@@ -232,23 +221,23 @@ font-weight: 700;
     color: var(--accent-color);
 }
 
-.nav__item:hover .header-mail-icon,
-.nav__item:focus .header-mail-icon {
+.nav__item:hover .connect__mail,
+.nav__item:focus .connect__mail {
     fill: var(--accent-color);
 }
 
-.connect__tel:hover,.connect__tel:focus  {
+.connect__link:hover,.connect__link:focus  {
     color: var(--accent-color);
 }
 
-.nav__item:hover .header-tel-icon,
-.nav__item:focus .header-tel-icon {
+.nav__item:hover .connect__tel,
+.nav__item:focus .connect__tel {
     fill: var(--accent-color);
 }
 
 
 
-.header-mail-icon {
+.header__mail {
             width: 16px;
             height: 12px;
             background-color: #FFFFFF;
@@ -263,7 +252,7 @@ font-weight: 700;
             transition-delay: 0;
 }
 
-.header-tel-icon {
+.connect__tel {
     width: 10px;
     height: 16px;
     background-color: #FFFFFF;
