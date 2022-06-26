@@ -237,7 +237,7 @@ font-weight: 700;
 
 
 
-.header__mail {
+.connect__mail {
             width: 16px;
             height: 12px;
             background-color: #FFFFFF;
@@ -466,16 +466,16 @@ border-radius: 4px;
     padding-bottom: 94px;
 }
 
-.team-title {
+.team__title {
     margin-bottom: 50px;
 }
 
-.team-list {
+.team__list {
     display: flex;
     margin-left: -30px;
 }
 
-.team-item {
+.team__item {
     flex-basis: (100% / 4 - 30px);
     margin-left: 30px;
     background: #FFFFFF;
@@ -513,22 +513,22 @@ border-radius: 4px;
         margin-bottom: 16px;
 }
 
-.team-soc-list {
+.soc__list {
     display: flex;
     justify-content: center;
 }
 
-.team-soc-item {
+.soc__item {
     width: 44px;
     height: 44px;
     margin-right: 10px;
 }
 
-.team-soc-item:last-child {
+.soc__item:last-child {
     margin-right: 0px;
 }
 
-.team-soc-link {
+.soc__link {
     width: 100%;
     height: 100%;
     background-color: #FFFFFF;
@@ -552,13 +552,13 @@ border-radius: 4px;
     transition-delay: 0;
 }
 
-.team-soc-link:hover, 
-.team-soc-link:focus {
+.soc__link:hover, 
+.soc__link:focus {
     background-color: #2196F3;
 }
 
-.team-soc-link:hover .team-soc-icon,
-.team-soc-link:focus .team-soc-icon {
+.soc__link:hover .team-soc-icon,
+.soc__link:focus .team-soc-icon {
     fill: #FFFFFF;
 }
 
